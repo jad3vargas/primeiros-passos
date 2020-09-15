@@ -1,0 +1,63 @@
+body {
+    
+    margin: o;
+    font-family: 'Montserrat', sans-serif;
+    background: #f4f4f4;
+
+}
+    
+header {
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+    max-width: 992px;
+    border: 1px red;
+
+}
+
+@media (min-width: 768px) {
+    header {
+        justify-content: start;
+
+    }
+}
+
+header .details_photo {
+    margin: 20px;
+    
+}
+
+header .details_photo img {
+    background-color: #ddd;
+    
+    height: 500px;
+    width: 600px;
+    object-fit: cover;
+    
+}
+
+@media (min-width: 768px) {
+    header .details_photo img {
+        margin: 0 60px 0 30px;
+
+    }
+}
+header .description {
+    margin: 10px;
+}
+
+@media (min-width: 768px) {
+    header .description {
+        margin: 0;
+    }
+}
+header .description h1 {
+    font-size: 30px;
+}
+@media (min-width: 768px) {
+    header .description h1 {
+        font-size: 34px;
+    }
+}
+header .description p {
+    font-size: 16px;
